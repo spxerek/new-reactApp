@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+#particles canvas{
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.newtext{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'bromph', sans-serif;
+  color: aqua;
+  font-size: 150px;
+}
+
+
+@font-face {
+  font-family: 'bromph';
+  src: url('./fonts/BROMPH_TOWN.woff2') format('woff2') ;
+}
